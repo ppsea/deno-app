@@ -29,3 +29,30 @@ denoland.vscode-deno
 ```
 deno run --allow-net welcome.ts
 ```
+
+### Denon, hot reloader like nodemon.
+
+- installation
+- [https://deno.land/x/denon](https://deno.land/x/denon)
+
+```
+deno install -qAf --unstable https://deno.land/x/denon/denon.ts
+```
+
+- check denon
+
+```
+denon --version
+```
+
+- configure zsh
+
+```
+export Denon="/Users/henry/.deno/bin/denon"
+```
+
+- run denon
+
+```
+denon run --allow-net --allow-env denon.ts
+```
